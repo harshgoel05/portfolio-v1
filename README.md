@@ -1,4 +1,4 @@
-# MyWebsite
-This is the source code of my portfolio-webite
-www.harshgoel.co
-I have used HTML,CSS,JS for this website
+# portfolio
+<h3>New portfolio design in building</h3>
+<br>
+<a href="http://harshgoel05.github.io/portfolio">View the website</a>
