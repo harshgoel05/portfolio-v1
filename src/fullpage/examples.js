@@ -1,6 +1,8 @@
 var myFullpage = new fullpage('#fullpage', {
     navigation:true,
+    anchors:['hello', 'skills','responsive', 'contact'],
     navigationTooltips: ['Home', 'Skills','Web Services','Portfolio','Contact Me'],
+    lockAnchors: false,
     scrollingSpeed: 1000,
     responsiveSlides: true,
     
@@ -33,10 +35,12 @@ var myFullpage = new fullpage('#fullpage', {
         if(destination.index == 3){
             document.querySelector('.social-media').style.bottom = 0 + 'px';
             document.querySelector('.social-media').style.opacity = 1;
+            document.querySelector('form').style.opacity = 1;
         }
         else{
             document.querySelector('.social-media').style.opacity = 0;
             document.querySelector('.social-media').style.bottom = -20 + '%';
+            document.querySelector('form').style.opacity = 0;
         } 
     }
 });

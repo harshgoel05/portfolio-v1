@@ -160,11 +160,31 @@ html, body {
 *{
   cursor: url('../cursor.cur'), default;
   }
+    ul {
 
-
-
-
-
+      list-style-type: none;
+    
+    }
+    
+    ul li:before {
+    
+      content: '';
+    
+      display: inline-block;
+    
+      height: 10px;
+    
+      width: 10px;
+       background-size: 10px;
+    
+      background-image: url("../../src/right.Png");
+      background-repeat: no-repeat;
+      margin-right: 5px;
+    
+    }
+.nav-item:before{
+  display: none;
+}
 
 
 
