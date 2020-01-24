@@ -166,7 +166,7 @@ html, body {
     
     }
     
-    ul li:before {
+    /* ul li:before {
     
       content: '';
     
@@ -181,7 +181,7 @@ html, body {
       background-repeat: no-repeat;
       margin-right: 5px;
     
-    }
+    } */
 .nav-item:before{
   display: none;
 }
